@@ -1,0 +1,67 @@
+figma link- https://www.figma.com/proto/46oqOIsX4qXtKpoqLx1W3O/youtube_ui?page-id=0%3A1&node-id=1-2&viewport=558%2C206%2C0.59&t=0GFyITaYyZMKfx9z-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=10%3A107
+
+
+Problem statement-Redesign YouTube’s comment section to dynamically reorganize in real-time based on what the user is seeing in the video—keeping it simple, readable, and relevant.
+
+I am creating a smart comment experience that adapts in real-time to the video content, helping users discover insights, jokes, discussions, or reactions exactly when they matter. It works quietly under the video, enhancing the viewing and commenting experience.
+
+CORE FEATURES 
+1. Three Comment Modes (Filter Dropdown)
+
+   Mode-Static Comments (Default)
+   Description- Classic YouTube-style view. All comments, sorted by time or popularity.
+
+  Mode-Live-Synced Comments
+  Description- Comments update dynamically while the user watches the video, showing only those relevant to the current timestamp.
+
+   Mode-Static Manual Timestamp Filter
+   Description- Users pick a specific time on a slider and see comments tied to that exact moment.
+
+2. Toggle for “Current Moment Only”
+A toggle switch lets users control whether the full comment section shows:
+
+All comments
+
+Or only comments linked to the current video time
+
+Helps focus user attention and avoid spoilers or off-topic discussions.
+
+3. . Clean, Subtle UI Design
+You’ve ensured:
+
+All new UI elements (strip, toggle, labels) are:
+
+Minimalist
+
+Collapsible
+
+Context-aware
+
+Works well on both small screens (mobile) and desktop
+
+Comments never float over the video—they sit below the player, keeping focus on the content
+
+
+ INTERACTION EXPERIENCE (UX Flow)
+User starts watching a video → sees normal comments
+
+They enable Live Comments → relevant comments flow in automatically
+
+Toggle: "Only show current moment comments" → deep filters comment section
+
+User scrubs timeline → strip and comments adapt instantly
+
+Switch to Manual Timestamp → picks a moment, reads what people said at that exact time
+
+
+BIG IMPACT — SIMPLE INTERACTIONS
+
+Element	                Why It’s Powerful
+
+Toggle Filter-------	Gives full control to viewers without cluttering the UI
+Live Comment Sync----	Feels intuitive and intelligent; connects users to real reactions in real time
+Manual Filter----	Great for content-heavy videos (e.g., tutorials, speeches)
+Timestamp Tags----	Turns every comment into a mini navigation tool
+
+
+
